@@ -1,4 +1,4 @@
-import isUndefined from './isUndefined';
+const isUndefined = require('./isUndefined');
 
 /**
  * pickup value or defaultValue
@@ -7,6 +7,6 @@ import isUndefined from './isUndefined';
  * @param {*} defaultValue return this value if value is undefined.
  * @return {*}
  */
-export default (value, defaultValue) => {
+module.exports = (value, defaultValue) => {
   return isUndefined(value) ? defaultValue : value;
 };

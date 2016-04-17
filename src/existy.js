@@ -1,5 +1,5 @@
-import isUndefined from './isUndefined';
-import isNull from './isNull';
+const isUndefined = require('./isUndefined');
+const isNull = require('./isNull');
 
 /**
  * exist value.
@@ -8,6 +8,6 @@ import isNull from './isNull';
  * @param {*} val check value.
  * @return {Boolean}
  */
-export default (val) => {
+module.exports = (val) => {
   return !isUndefined(val) && !isNull(val);
 };

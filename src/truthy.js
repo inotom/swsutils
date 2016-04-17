@@ -1,4 +1,4 @@
-import existy from './existy';
+const existy = require('./existy');
 
 /**
  * check value is true
@@ -6,6 +6,6 @@ import existy from './existy';
  * @param {*} val check value.
  * @return {Boolean}
  */
-export default (val) => {
+module.exports = (val) => {
   return val !== false && existy(val);
 };

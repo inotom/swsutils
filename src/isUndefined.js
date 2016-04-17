@@ -4,6 +4,6 @@
  * @param {*} val checked value.
  * @return {Boolean}
  */
-export default (val) => {
+module.exports = (val) => {
   return typeof val === 'undefined';
 };

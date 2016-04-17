@@ -1,6 +1,6 @@
-import existy from './existy';
-import isString from './isString';
-import isArguments from './isArguments';
+const existy = require('./existy');
+const isString = require('./isString');
+const isArguments = require('./isArguments');
 
 /**
  * check empty value
@@ -8,7 +8,7 @@ import isArguments from './isArguments';
  * @param {*} val check value.
  * @return {Boolean}
  */
-export default (val) => {
+module.exports = (val) => {
   if (!existy(val)) {
     return true;
   }
