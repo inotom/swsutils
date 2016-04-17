@@ -8,7 +8,7 @@ const isArguments = require('./isArguments');
  * @param {*} val check value.
  * @return {Boolean}
  */
-module.exports = (val) => {
+module.exports = function(val) {
   if (!existy(val)) {
     return true;
   }

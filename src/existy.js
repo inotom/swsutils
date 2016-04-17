@@ -8,6 +8,6 @@ const isNull = require('./isNull');
  * @param {*} val check value.
  * @return {Boolean}
  */
-module.exports = (val) => {
+module.exports = function(val) {
   return !isUndefined(val) && !isNull(val);
 };

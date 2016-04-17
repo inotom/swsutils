@@ -6,6 +6,6 @@ const existy = require('./existy');
  * @param {*} val check value.
  * @return {Boolean}
  */
-module.exports = (val) => {
+module.exports = function(val) {
   return val !== false && existy(val);
 };

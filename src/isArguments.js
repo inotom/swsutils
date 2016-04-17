@@ -4,6 +4,6 @@
  * @param {*} val check value.
  * @return {Boolean}
  */
-module.exports = (val) => {
+module.exports = function(val) {
   return toString.call(val) === '[object Arguments]';
 };

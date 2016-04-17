@@ -4,6 +4,6 @@
  * @param {*} val checked value.
  * @return {Boolean}
  */
-module.exports = (val) => {
+module.exports = function(val) {
   return typeof val === 'undefined';
 };

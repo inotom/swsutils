@@ -7,6 +7,6 @@ const isUndefined = require('./isUndefined');
  * @param {*} defaultValue return this value if value is undefined.
  * @return {*}
  */
-module.exports = (value, defaultValue) => {
+module.exports = function(value, defaultValue) {
   return isUndefined(value) ? defaultValue : value;
 };

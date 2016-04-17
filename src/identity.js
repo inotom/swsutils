@@ -4,6 +4,6 @@
  * @param {*} val return value.
  * @return {*}
  */
-module.exports = (val) => {
+module.exports = function(val) {
   return val;
 };
