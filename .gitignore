@@ -1,0 +1,11 @@
+.DS_Store
+.svn
+tags
+*.tags
+*.swp
+*~
+*.log
+*.lock
+node_modules
+.pass
+.pwd

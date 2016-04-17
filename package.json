@@ -1,0 +1,22 @@
+{
+  "name": "swsutils",
+  "version": "1.0.0",
+  "description": "JavaScript utility modules",
+  "main": "",
+  "private": true,
+  "scripts": {
+    "start": "npm test",
+    "watch:test": "nodemon -w test -w src -e js -x npm test",
+    "test": "mocha --compilers js:espower-babel/guess test/**/*.js"
+  },
+  "author": "iNo <wdf7322@yahoo.co.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "espower-babel": "^4.0.3",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.1",
+    "power-assert": "^1.3.1",
+    "watchify": "^3.7.0"
+  }
+}
