@@ -1,4 +1,4 @@
-# JavaScript utility modules
+# JavaScript utility modules [![Build Status](https://travis-ci.org/inotom/swsutils.svg?branch=master)](https://travis-ci.org/inotom/swsutils)
 
 A small JavaScript utility modules.
 
