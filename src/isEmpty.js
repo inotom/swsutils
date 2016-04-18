@@ -1,6 +1,6 @@
-const existy = require('./existy');
-const isString = require('./isString');
-const isArguments = require('./isArguments');
+var existy = require('./existy');
+var isString = require('./isString');
+var isArguments = require('./isArguments');
 
 /**
  * check empty value

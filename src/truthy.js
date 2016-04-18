@@ -1,4 +1,4 @@
-const existy = require('./existy');
+var existy = require('./existy');
 
 /**
  * check value is true

@@ -1,4 +1,4 @@
-const isUndefined = require('./isUndefined');
+var isUndefined = require('./isUndefined');
 
 /**
  * pickup value or defaultValue

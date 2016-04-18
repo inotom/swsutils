@@ -1,5 +1,5 @@
-const isUndefined = require('./isUndefined');
-const isNull = require('./isNull');
+var isUndefined = require('./isUndefined');
+var isNull = require('./isNull');
 
 /**
  * exist value.
