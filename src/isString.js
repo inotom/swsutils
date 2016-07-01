@@ -5,5 +5,5 @@
  * @return {Boolean}
  */
 module.exports = function(val) {
-  return toString.call(val) === '[object String]';
+  return Object.prototype.toString.call(val) === '[object String]';
 };
