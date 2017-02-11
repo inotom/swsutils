@@ -8,6 +8,12 @@ A small JavaScript utility modules.
 $ npm install git://github.com/inotom/swsutils.git#v2.0.0 --save-dev
 ```
 
+## Usage
+
+```
+import { existy } from 'swsutils';
+```
+
 ## License
 
 MIT
