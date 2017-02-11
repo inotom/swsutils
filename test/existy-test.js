@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import existy from '../src/existy';
+import { existy } from '../src/index';
 
 describe('existy', function() {
 

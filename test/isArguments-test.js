@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import isArguments from '../src/isArguments';
+import { isArguments } from '../src/index';
 
 describe('isArguments', function() {
 

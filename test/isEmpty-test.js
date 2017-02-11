@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import isEmpty from '../src/isEmpty';
+import { isEmpty } from '../src/index';
 
 describe('isEmpty', function() {
 

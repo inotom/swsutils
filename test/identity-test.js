@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import identity from '../src/identity';
+import { identity } from '../src/index';
 
 describe('identity', function() {
 

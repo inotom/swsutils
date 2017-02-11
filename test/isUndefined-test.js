@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import isUndefined from '../src/isUndefined';
+import { isUndefined } from '../src/index';
 
 describe('isUndefined', function() {
 

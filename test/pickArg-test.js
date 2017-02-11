@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import pickArg from '../src/pickArg';
+import { pickArg } from '../src/index';
 
 describe('pickArg', function() {
 

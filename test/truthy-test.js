@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import truthy from '../src/truthy';
+import { truthy } from '../src/index';
 
 describe('truthy', function() {
 

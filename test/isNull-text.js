@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import isNull from '../src/isNull';
+import { isNull } from '../src/index';
 
 describe('isNull', function() {
 

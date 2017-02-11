@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import isString from '../src/isString';
+import { isString } from '../src/index';
 
 describe('isString', function() {
 
