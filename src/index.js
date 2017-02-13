@@ -8,3 +8,4 @@ exports.isUndefined = require('./isUndefined.js');
 exports.pickArg = require('./pickArg.js');
 exports.truthy = require('./truthy.js');
 exports.isArray = require('./isArray.js');
+exports.isObject = require('./isObject.js');
