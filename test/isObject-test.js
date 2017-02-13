@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { isObject } from '../src/index';
+var assert = require('power-assert');
+var isObject = require('../src/index').isObject;
 
 describe('isObject', function() {
 

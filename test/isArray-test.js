@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { isArray } from '../src/index';
+var assert = require('power-assert');
+var isArray = require('../src/index').isArray;
 
 describe('isArray', function() {
 

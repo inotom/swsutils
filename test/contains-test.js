@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { contains } from '../src/index';
+var assert = require('power-assert');
+var contains = require('../src/index').contains;
 
 describe('contains', function() {
 

@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { truthy } from '../src/index';
+var assert = require('power-assert');
+var truthy = require('../src/index').truthy;
 
 describe('truthy', function() {
 

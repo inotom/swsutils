@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { isString } from '../src/index';
+var assert = require('power-assert');
+var isString = require('../src/index').isString;
 
 describe('isString', function() {
 

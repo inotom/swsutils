@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { pickArg } from '../src/index';
+var assert = require('power-assert');
+var pickArg = require('../src/index').pickArg;
 
 describe('pickArg', function() {
 

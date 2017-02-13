@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { isNull } from '../src/index';
+var assert = require('power-assert');
+var isNull = require('../src/index').isNull;
 
 describe('isNull', function() {
 

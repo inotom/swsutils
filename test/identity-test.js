@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { identity } from '../src/index';
+var assert = require('power-assert');
+var identity = require('../src/index').identity;
 
 describe('identity', function() {
 

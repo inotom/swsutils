@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import { isArguments } from '../src/index';
+var assert = require('power-assert');
+var isArguments = require('../src/index').isArguments;
 
 describe('isArguments', function() {
 
