@@ -9,3 +9,4 @@ exports.pickArg = require('./pickArg.js');
 exports.truthy = require('./truthy.js');
 exports.isArray = require('./isArray.js');
 exports.isObject = require('./isObject.js');
+exports.contains = require('./contains.js');
