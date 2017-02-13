@@ -5,7 +5,7 @@ describe('isArguments', function() {
 
   it('arguments value', function() {
     (function() {
-      let arg = arguments;
+      var arg = arguments;
       assert(isArguments(arg) === true);
     })('');
   });

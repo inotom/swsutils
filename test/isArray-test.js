@@ -21,7 +21,7 @@ describe('isArray', function() {
       assert(isArray(void(0)) === false);
       assert(isArray(null) === false);
     (function() {
-      let arg = arguments;
+      var arg = arguments;
       assert(isArray(arg) === false);
     })('');
   });
