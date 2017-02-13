@@ -7,3 +7,4 @@ exports.isString = require('./isString.js');
 exports.isUndefined = require('./isUndefined.js');
 exports.pickArg = require('./pickArg.js');
 exports.truthy = require('./truthy.js');
+exports.isArray = require('./isArray.js');
