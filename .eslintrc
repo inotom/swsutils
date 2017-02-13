@@ -1,11 +1,7 @@
 {
   "extends": "eslint:recommended",
-  "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 6,
-    "ecmaFeatures": {
-      "modules": true
-    }
+    "ecmaVersion": 5
   },
   "rules": {
     "strict": 0,
@@ -16,7 +12,6 @@
   },
   "env": {
     "browser": true,
-    "es6": true,
     "commonjs": true,
     "jasmine": true,
     "mocha": true
