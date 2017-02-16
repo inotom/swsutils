@@ -12,7 +12,7 @@
     "build": "NODE_ENV=production browserify ${npm_package_config_js_src} -r ./src/index.js:swsutils -t | uglifyjs -m -c --comments > ${npm_package_config_js_out}",
     "start": "npm test",
     "watch:test": "nodemon -w test -w src -e js -x npm test",
-    "test": "mocha test/**/*.js"
+    "test": "mocha --require intelli-espower-loader test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "author": "iNo <wdf7322@yahoo.co.jp>",
   "license": "MIT",
   "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0",
     "power-assert": "^1.4.2",
