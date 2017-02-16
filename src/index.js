@@ -11,3 +11,4 @@ exports.isArray = require('./isArray.js');
 exports.isObject = require('./isObject.js');
 exports.contains = require('./contains.js');
 exports.first = require('./first.js');
+exports.last = require('./last.js');
