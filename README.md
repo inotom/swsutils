@@ -5,7 +5,7 @@ A small JavaScript utility modules.
 ## Install
 
 ```
-$ npm install git://github.com/inotom/swsutils.git#v2.1.0 --save-dev
+$ npm install git://github.com/inotom/swsutils.git#v2.2.0 --save-dev
 ```
 
 ## Usage
