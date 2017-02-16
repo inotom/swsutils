@@ -12,3 +12,4 @@ exports.isObject = require('./isObject.js');
 exports.contains = require('./contains.js');
 exports.first = require('./first.js');
 exports.last = require('./last.js');
+exports.rest = require('./rest.js');
