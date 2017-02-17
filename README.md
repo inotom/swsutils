@@ -10,8 +10,10 @@ $ npm install git://github.com/inotom/swsutils.git#v2.2.0 --save-dev
 
 ## Usage
 
-```
+```js
 import { existy } from 'swsutils';
+// or
+import existy from 'swsutils/src/existy';
 ```
 
 ## License
